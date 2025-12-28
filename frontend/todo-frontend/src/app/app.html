@@ -1,0 +1,14 @@
+<div class="container">
+  <h2>My To-Do List</h2>
+  
+  <div class="input-group">
+    <input [(ngModel)]="todoTitle" placeholder="Add new todo" />
+    <button (click)="addTodo()">Add</button>
+  </div>
+
+  <ul>
+    <li *ngFor="let todo of todos">
+      {{ todo.title }}
+    </li>
+  </ul>
+</div>

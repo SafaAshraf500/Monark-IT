@@ -1,0 +1,81 @@
+/* Container */
+.container {
+  width: 500px;
+  margin: 50px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0e7ff; 
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Title */
+h2 {
+  text-align: center;
+  color: #5a189a; 
+  margin-bottom: 20px;
+}
+
+/* Input group */
+.input-group {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #d0bfff; 
+  border-radius: 8px 0 0 8px;
+  outline: none;
+  transition: border 0.2s;
+}
+
+input:focus {
+  border-color: #9d4edd; /
+}
+
+/* Add button */
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #9d4edd;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 0 8px 8px 0;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #7b2cbf; 
+}
+
+/* Todo list */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 15px;
+  border-bottom: 1px solid #d0bfff;
+  background-color: #fff0f7;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  transition: background-color 0.2s;
+}
+
+li:hover {
+  background-color: #e0c1f5; 
+}
+
+/* Todo text */
+li span {
+  font-size: 16px;
+  color: #5a189a;
+}
